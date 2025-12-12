@@ -9,7 +9,7 @@ Eine inoffizielle LaTeX-Vorlage für Bachelor-, Master- und Diplomarbeiten in **
 ## Features & Hacks
 
 ### **Schon eingebaut & vorkonfiguriert:**
-- **`mhchem` für chemische Formeln** - `\ce{H2O}` statt `H$_2$O` 🎉
+- **`mhchem` für chemische Formeln** - `\ce{H2O}` statt `H$_2$O` 
 - **Angepasste Seitenränder** - mehr Platz für Reaktionsschemata und Verzweiflung
 - **Longtables** - für endlose Substanzlisten und Versuchsprotokolle
 - **Subfigures** - damit deine Chromatogramme und Spektren hübsch nebeneinander stehen
@@ -18,11 +18,11 @@ Eine inoffizielle LaTeX-Vorlage für Bachelor-, Master- und Diplomarbeiten in **
 - **`siunitx`** - `\SI{25}{\celsius}` statt "25°C"
 - **`chemfig`** - für Reaktionsmechanismen (optional)
 
-### 🍪 **Offene Herausforderungen (Keks-Belohnung!):**
-- **`achemso`-Integration** – wer den ACS-Zitierstil sauber einbindet, bekommt einen (virtuellen) Keks 🍪  
+### **Offene Herausforderungen (Keks-Belohnung!):**
+- **`achemso`-Integration** – wer den ACS-Zitierstil sauber einbindet, bekommt einen (virtuellen) Keks   
   *Hinweis: Derzeitiger Workaround = `apalike*
 
-## 📜 Lizenz
+## Lizenz
 
-Basierend auf [`vutinfth.cls`](https://gitlab.com/thauzi/vutinfth) von **Thomas Auzinger** (LPPL 1.3).  
+Basierend auf [`vutinfth.cls`](https://gitlab.com/ThomasAUZINGER/vutinfth) von **Thomas Auzinger** (LPPL 1.3).  
 TU-Wien-Logos unterliegen dem Copyright der TU Wien.
