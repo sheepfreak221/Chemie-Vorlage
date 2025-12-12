@@ -20,7 +20,7 @@ Eine inoffizielle LaTeX-Vorlage für Bachelor-, Master- und Diplomarbeiten in **
 
 ### **Offene Herausforderungen (Keks-Belohnung!):**
 - **`achemso`-Integration** – wer den ACS-Zitierstil sauber einbindet, bekommt einen (virtuellen) Keks   
-  *Hinweis: Derzeitiger Workaround = `apalike*
+  *Hinweis: Derzeitiger Workaround = `apalike`*
 
 ## Lizenz
 
