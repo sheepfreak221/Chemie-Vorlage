@@ -1,6 +1,6 @@
 # LaTeX-Vorlage für Abschlussarbeiten in Technischer Chemie (TU Wien)
 
-*„Basierend auf `vutinfth.cls` – jetzt mit 100 % mehr Chemie und 0 % mehr Word-Frust.“*
+*„Basierend auf `vutinfth.cls`, jetzt mit 100 % mehr Chemie und 0 % mehr Word-Frust.“*
 
 ## Was ist das?
 
@@ -19,7 +19,7 @@ Eine inoffizielle LaTeX-Vorlage für Bachelor-, Master- und Diplomarbeiten in **
 - **`chemfig`** - für Reaktionsmechanismen (optional)
 
 ### **Offene Herausforderungen (Keks-Belohnung!):**
-- **`achemso`-Integration** – wer den ACS-Zitierstil sauber einbindet, bekommt einen (virtuellen) Keks   
+- **`achemso`-Integration**, wer den ACS-Zitierstil sauber einbindet, bekommt einen (virtuellen) Keks   
   *Hinweis: Derzeitiger Workaround = `apalike`*
 
 ## Lizenz
