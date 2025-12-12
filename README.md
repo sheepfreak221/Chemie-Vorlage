@@ -4,7 +4,7 @@
 
 ## Was ist das?
 
-Eine inoffizielle LaTeX-Vorlage für Bachelor-, Master- und Diplomarbeiten in **Technischer Chemie an der TU Wien**, adaptiert von der offiziellen Informatik-Vorlage [`vutinfth.cls`](https://gitlab.com/thauzi/vutinfth) von Thomas Auzinger.
+Eine inoffizielle LaTeX-Vorlage für Bachelor-, Master- und Diplomarbeiten in **Technischer Chemie an der TU Wien**, adaptiert von der offiziellen Informatik-Vorlage [`vutinfth.cls`](https://gitlab.com/ThomasAUZINGER/vutinfth) von Thomas Auzinger.
 
 ## Features & Hacks
 
