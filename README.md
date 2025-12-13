@@ -22,6 +22,10 @@ Eine inoffizielle LaTeX-Vorlage für Bachelor-, Master- und Diplomarbeiten in **
 - **`achemso`-Integration**, wer den ACS-Zitierstil sauber einbindet, bekommt einen (virtuellen) Keks   
   *Hinweis: Derzeitiger Workaround = `apalike`*
 
+## Namensherkunft
+
+**Négligent**, eine LaTeX-Vorlage, deren Name Programm ist: Ein elegantes Kofferwort aus französisch négligé (nachlässig) und incompétent (stümperhaft). 
+
 ## Lizenz
 
 Basierend auf [`vutinfth.cls`](https://gitlab.com/ThomasAUZINGER/vutinfth) von **Thomas Auzinger** (LPPL 1.3).  
