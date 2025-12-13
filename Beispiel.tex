@@ -1,5 +1,4 @@
 % Copyright (C) 2014-2024 by Thomas Auzinger <thomas@auzinger.name>
-\PassOptionsToPackage{nonatbib}{natbib}
 \documentclass[draft,final,openany]{vutinfth} % Remove option 'final' to obtain debug information.
 
 \usepackage{geometry}
@@ -44,6 +43,7 @@
 \usepackage{booktabs}   % Improves the typesetting of tables.
 \usepackage{subcaption} % Allows the use of subfigures and enables their referencing.
 \usepackage[ruled,linesnumbered,algochapter]{algorithm2e} % Enables the writing of pseudo code.
+\usepackage{lipsum}
 \usepackage[dvipsnames,table]{xcolor} % Allows the definition and use of colors. This package has to be included before tikz.
 \usepackage{nag}        % Issues warnings when best practices in writing LaTeX documents are violated.
 \usepackage{todonotes}  % Provides tooltip-like todo notes.
@@ -97,7 +97,6 @@
 
 % For dissertations at the PhD School and optionally for dissertations:
 %\setsecondadvisor{Pretitle}{Forename Surname}{Posttitle}{male} % Comment to remove.
-\newcommand{\ADH}{\textsc{ADH4}}
 % Required data.
 \setregnumber{01234567}
 \setdate{01}{01}{2001} % Set date with 3 arguments: {day}{month}{year}.
@@ -177,19 +176,197 @@
 
 \chapter{Introduction}
 
+... Als konzeptionelles Beispiel (Abb. \ref{fig:two_images} (a)) für die Anwendung rheologischer Prinzipien auf komplexe, biologische Systeme dient die humorvolle Untersuchung von \cite{Fardin2014RheologyCats} zum Verhalten von Hauskatzen. Der Autor wendet das Deborah-Zahl-Konzept (Abb. \ref{fig:two_images} (b)) an, um zu argumentieren, dass der scheinbare Aggregatzustand eines Systems stark von der gewählten Beobachtungszeitskala abhängt \cite{Fardin2014RheologyCats}. Diese Arbeit verdeutlicht ...
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \centering        
+        \caption{Erstes Bild}
+        \includegraphics[width=\linewidth]{graphics/UimvLgxKGsuxxPsZH3XjAYrvvKQzERqCK0OxCG1H.jpg}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \centering        
+        \caption{Zweites Bild}
+        \includegraphics[width=\linewidth]{graphics/MeG9AtWTBUNf4Yur4KEGjTfTw8j7zJjvt18BBsZi.jpg}
+    \end{subfigure}
+    \caption{Vergleich von zwei verschiedenen Darstellungen}
+    \label{fig:two_images}
+\end{figure}
+
+
+\section{Beispiele wissenschaftlicher Notationen}
+
+\subsection{Chemische Formeln mit \texttt{mhchem}}
+
+Die Neutralisationsreaktion zwischen Salzsäure und Natronlauge:
+\[
+\ce{HCl + NaOH -> NaCl + H2O}
+\]
+
+Das Säure-Base-Gleichgewicht von Essigsäure in Wasser:
+\[
+\ce{CH3COOH + H2O <=> CH3COO- + H3O+}
+\]
+
+Die Redoxreaktion bei der Eisenkorrosion:
+\[
+\ce{4Fe + 3O2 + 6H2O -> 4Fe(OH)3}
+\]
+
+\subsection{Strukturformeln mit \texttt{chemfig}}
+
+Die Struktur von Ethan (C\textsubscript{2}H\textsubscript{6}):
+\[
+\chemfig{H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-H}
+\]
+
+Das Benzolmolekül mit delokalisierten $\pi$-Elektronen:
+\[
+\chemfig{*6(=-=-=-)}
+\]
+
+Die funktionellen Gruppen in Glycin (Aminosäure):
+\[
+\chemfig{H_2N-CH_2-COOH}
+\]
+
+\subsection{Einheiten und Messwerte mit \texttt{siunitx}}
+
+Physikalische Konstanten:
+\begin{itemize}
+    \item Lichtgeschwindigkeit: \qty{299792458}{\meter\per\second}
+    \item Avogadro-Konstante: \qty{6.02214076e23}{\per\mole}
+    \item Normbedingungen: \qty{273.15}{\kelvin} bei \qty{101325}{\pascal}
+\end{itemize}
+
+Messwerte mit Fehlerangaben:
+\begin{itemize}
+    \item Temperatur: \qty{23.5 \pm 0.1}{\celsius}
+    \item Konzentration: \qty{0.150 \pm 0.003}{\mol\per\liter}
+    \item Volumen: \qty{50.00 \pm 0.05}{\milli\liter}
+\end{itemize}
+
+Bereichsangaben:
+\begin{itemize}
+    \item Reaktionstemperatur: \qtyrange{20}{25}{\celsius}
+    \item pH-Bereich: \numrange{6.5}{7.5}
+\end{itemize}
+
+\subsection{Kombinierte Anwendung im Text}
+
+Die Umsetzung von \qty{2.5}{\gram} (\qty{0.025}{\mol}) Natriumcarbonat (\ce{Na2CO3}) 
+mit Salzsäure (\ce{HCl}) bei \qty{25}{\celsius} führt zur Bildung von Natriumchlorid, 
+Kohlendioxid und Wasser gemäß:
+
+\[
+\ce{Na2CO3 + 2HCl -> 2NaCl + CO2 ^ + H2O}
+\]
+
+Die freigesetzte Gasmenge beträgt unter Normbedingungen \qty{0.56}{\liter} 
+(\qty{0.025}{\mol} \ce{CO2} × \qty{22.4}{\liter\per\mol}).
+
+\chapter{Materials and methods}
+
+\lipsum[1] % Beispieltext
+
 
 \chapter{Results and Evaluation}
 
 
+\section{Meine lange Tabelle}
+
+\lipsum[1] % Beispieltext
+
+\begin{longtable}{|p{3cm}|p{3cm}|p{6cm}|}
+\caption{Eine lange Tabelle, die über zwei Seiten geht} \\
+\hline
+\textbf{Spalte 1} & \textbf{Spalte 2} & \textbf{Spalte 3} \\
+\hline
+\endfirsthead
+
+\multicolumn{3}{c}{{\tablename\ \thetable{} -- Fortsetzung von vorheriger Seite}} \\
+\hline
+\textbf{Spalte 1} & \textbf{Spalte 2} & \textbf{Spalte 3} \\
+\hline
+\endhead
+
+\hline
+\multicolumn{3}{r}{{Fortsetzung auf nächster Seite}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+% Hier beginnt der Tabelleninhalt
+Element 1 & Daten A & Beschreibung 1 \\
+\hline
+Element 2 & Daten B & \lipsum[2][1-2] \\
+\hline
+Element 3 & Daten C & Beschreibung 3 \\
+\hline
+Element 4 & Daten D & Beschreibung 4 \\
+\hline
+Element 5 & Daten E & \lipsum[3][1-2] \\
+\hline
+Element 6 & Daten F & Beschreibung 6 \\
+\hline
+Element 7 & Daten G & Beschreibung 7 \\
+\hline
+Element 8 & Daten H & \lipsum[4][1-2] \\
+\hline
+Element 9 & Daten I & Beschreibung 9 \\
+\hline
+Element 10 & Daten J & Beschreibung 10 \\
+\hline
+Element 11 & Daten K & \lipsum[5][1-2] \\
+\hline
+Element 12 & Daten L & Beschreibung 12 \\
+\hline
+Element 13 & Daten M & Beschreibung 13 \\
+\hline
+Element 14 & Daten N & \lipsum[6][1-2] \\
+\hline
+Element 15 & Daten O & Beschreibung 15 \\
+\hline
+Element 16 & Daten P & Beschreibung 16 \\
+\hline
+Element 17 & Daten Q & \lipsum[7][1-2] \\
+\hline
+Element 18 & Daten R & Beschreibung 18 \\
+\hline
+Element 19 & Daten S & Beschreibung 19 \\
+\hline
+Element 20 & Daten T & \lipsum[8][1-2] \\
+\hline
+Element 21 & Daten U & Beschreibung 21 \\
+\hline
+Element 22 & Daten V & Beschreibung 22 \\
+\hline
+Element 23 & Daten W & \lipsum[9][1-2] \\
+\hline
+Element 24 & Daten X & Beschreibung 24 \\
+\hline
+Element 25 & Daten Y & Beschreibung 25 \\
+\hline
+Element 26 & Daten Z & \lipsum[10][1-2] \\
+\hline
+\end{longtable}
+
+\lipsum[11-15] % Weitere Beispieltexte nach der Tabelle
+
+
 \chapter{Discussion}
 
+\lipsum[11-15]
 
 \chapter{Outlook}
 
 % Remove following line for the final thesis.
 %\input{intro.tex} % A short introduction to LaTeX.
 
-
+\lipsum[11-15]
 
 \backmatter
 
