@@ -14,7 +14,7 @@ Eine inoffizielle LaTeX-Vorlage für Bachelor-, Master- und Diplomarbeiten in **
 - **Longtables** - für endlose Substanzlisten und Versuchsprotokolle
 - **Subfigures** - damit deine Chromatogramme und Spektren hübsch nebeneinander stehen
 - **Zitierstil `apalike`** - der Klassiker, der (meistens) funktioniert
-- eines schönes(!!!)**TU-Wien-Logo & Chemie-spezifisches Deckblatt**
+- **TU-Wien-Logo (aber ein schönes!!!) & Chemie-spezifisches Deckblatt**
 - **`siunitx`** - `\SI{25}{\celsius}` statt "25°C"
 - **`chemfig`** - für Reaktionsmechanismen (optional)
 
