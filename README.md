@@ -1,4 +1,4 @@
-# LaTeX-Vorlage für Abschlussarbeiten in Technischer Chemie (TU Wien)
+# Négligent: LaTeX-Vorlage für Abschlussarbeiten in Technischer Chemie (TU Wien)
 
 *„Basierend auf `vutinfth.cls`, jetzt mit 100 % mehr Chemie und 0 % mehr Word-Frust.“*
 
