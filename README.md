@@ -4,7 +4,7 @@
 
 ## Was ist das?
 
-Eine inoffizielle LaTeX-Vorlage für Bachelor-, Master- und Diplomarbeiten in **Technischer Chemie an der TU Wien**, adaptiert von der offiziellen Informatik-Vorlage [`vutinfth.cls`](https://gitlab.com/ThomasAUZINGER/vutinfth) von Thomas Auzinger.
+Eine inoffizielle LaTeX-Vorlage für Bachelor-, Master- und PhD in **Technischer Chemie an der TU Wien**, adaptiert von der Informatik-Vorlage [`vutinfth.cls`](https://gitlab.com/ThomasAUZINGER/vutinfth) von Thomas Auzinger.
 
 ## Features & Hacks
 
@@ -12,14 +12,14 @@ Eine inoffizielle LaTeX-Vorlage für Bachelor-, Master- und Diplomarbeiten in **
 - **`mhchem` für chemische Formeln** - `\ce{H2O}` statt `H$_2$O` 
 - **Angepasste Seitenränder** - mehr Platz für Reaktionsschemata und Verzweiflung
 - **Longtables** - für endlose Substanzlisten und Versuchsprotokolle
-- **Subfigures** - damit deine Chromatogramme und Spektren hübsch nebeneinander stehen
+- **Subfigures** - damit deine Diagramme hübsch nebeneinander stehen
 - **Zitierstil `apalike`** - der Klassiker, der (meistens) funktioniert
 - **TU-Wien-Logo (aber ein schönes!!!) & Chemie-spezifisches Deckblatt**
 - **`siunitx`** - `\SI{25}{\celsius}` statt "25°C"
-- **`chemfig`** - für Reaktionsmechanismen (optional)
+- **`chemfig`** - für Reaktionsmechanismen 
 
 ### **Offene Herausforderungen (Keks-Belohnung!):**
-- **`achemso`-Integration**, wer den ACS-Zitierstil sauber einbindet, bekommt einen (virtuellen) Keks   
+- **`achemso`-Integration**, wer den ACS-Zitierstil sauber einbindet, bekommt einen Keks   
   *Hinweis: Derzeitiger Workaround = `apalike`*
 
 ## Namensherkunft
